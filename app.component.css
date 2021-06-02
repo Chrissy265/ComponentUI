@@ -1,0 +1,99 @@
+
+.header{
+  position: absolute;
+  width: 1128px;
+  height: 248px;
+  left: 312px;
+  top: 0px;
+
+  background: #FAFAFA
+}
+
+.uisecondaryverticalpointingmenu {
+
+width: 160px;
+position: fixed;
+z-index: 1;
+top:0;
+left:0;
+background-color:grey ;
+overflow-x:hidden;
+padding-top: 20px;
+}
+
+/* navigation menu links */
+
+.uisecondaryverticalpointingmenu a {
+padding: relative;
+width: 312px;
+height: 1807px;
+border: 1px solid #D8D8D8;
+box-sizing: border-box;
+}
+
+
+
+.uisecondaryverticalpointingmenu a:hover {
+  color: lightblue;
+}
+
+.componentSection {
+  background-color: white;
+}
+
+.uithreeitemmenu {
+
+  position: absolute;
+  width: 104px;
+  height: 40px;
+  left: 376px;
+  top: 296px;
+  background: #D8D8D8;
+  border-radius: 3px;
+}
+
+
+.component-container{
+
+  background-color: lightgray;
+
+}
+
+.sidenav {
+
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index: 1;
+  top:0;
+  left: 0;
+  background-color: lightgray;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5;
+
+
+}
+
+.sidenav a {
+
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color:#818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color:#f1f1f1;
+}
+
+.sidenav .closebtn {
+
+  position: absolute;
+  top:0;
+  right:25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
